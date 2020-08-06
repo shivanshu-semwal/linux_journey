@@ -42,6 +42,8 @@ date - displays current date
 date +[symbol] - display the current date particular part given by the symbol
     [d - day] [y - year] [H,M,S - hour, minute, second] [D - date] [T - time]
 
+
+bc - basic calculator
 passwd - change current password
 who - show currently logged user
 who am i - show your user details
@@ -78,6 +80,59 @@ stty -echo -sets the keyboard input display off used for passwords
 stty intr \^c - sets the interrrupt control character
 ```
 
+## echo - printing
 
+```txt
+echo [text to print]
+echo 'text to print as it is'
+echo -e "interpret escape characters"
+echo "$var" - prints the variable var
+```
 
+```txt
+\a - bell
+\b - backspace
+\c - no newline
+\f - formfeed
+\n - new line
+\r - carriage return
+\t - tab
+\v - vertical tab
+\\ - back slash
+\0n- ascii charcater represented by octal value n
+```
+
+## filesystem 
+
+Everything is file in linux.
+
+```txt
+ordinary file - binary/text file
+directory file - contains filename and there inode number
+device file
+```
+
+```txt
+pwd - print workling directory
+
+cd - change directory
+cd ~ - change to the home directory
+cd - - cahnge to previous directory(used for toggeling)
+
+mkdir - make directory
+rmdir - remove directory(empty directory)
+
+ls - list files 
+options:
+-x multicolumnar output
+-F mark executables with *, directories with /, symbolic links with @
+-a show all files
+-R recursive list
+-r sort in reverse
+-l long listing
+-t sort by last modification time
+-u sort by last access time
+-i display inode number
+
+```
 
