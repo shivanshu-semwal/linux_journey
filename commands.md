@@ -136,3 +136,73 @@ options:
 
 ```
 
+## handling text files
+
+```txt
+cat [filename] - displays the contents of the file 
+cat -v [filename] - displays the non-graphical characters also
+cat -n [filename] - displays the line number also
+
+
+cp [file] [destination] - copy file to the destination
+cp -i - interactive copy(provides warning while overwriring)
+cp -R - recursive copy 
+
+
+mv - renames a files 
+
+rm - remove a file
+```
+
+## archiving and compressing
+
+```txt
+
+gzip to compress tar to archive and zip to archive and compress
+
+gzip and gnuzip (.gz)
+
+gzip -d [filename] - decompress the file
+gzip -r [filename] - recursive compression
+gzip -l [filename] - list the compression ratio
+
+tar - archival program (.tar file)
+
+tar
+-c create an archive
+-x extract the archive
+-t view the archive
+-x extract the files form archive
+-t displays files in archive
+-f arch - specifies the archive arch
+-v verbose mode
+
+tar -cvf [archive name] [files to add...]
+
+now to compress the file use gzip
+gzip [archive name] - creates a tar-gzipped file
+
+tar -xvf [archive name] - extracts the archive
+tar -tvf [archive name] - view the archive
+
+
+Doing archiving and compression together (-z)
+
+tar -cvzf [compressed archive] - create a compressed archive
+
+zip AND unzip - compressing and archiving together (.zip)
+
+zip [archive name] [input files] - creates an archive
+zip -r [archive name] - recursive compressing
+unzip [archive name] - unzips an archive
+unzip -v [archive name] - viewing detaill about the compressed file
+```
+
+## Basic File Attributes
+
+```txt
+
+ls -l - long listing files 
+The columns are as folows::
+> File Type and Permissions
+> 
