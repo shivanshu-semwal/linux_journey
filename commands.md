@@ -10,11 +10,11 @@ man -f [command] - one line help on the command
 ```
 
 ```txt
-apropos is same as the man -k command
-whatis is same as the man -f command
+apropos is same as the man -k command - used to find commands associated with a particular keyword
+whatis is same as the man -f command - used to ge one line help on a command
 ```
 
-## Control character in the linux terminal 🖥
+## Control character in the linux terminal
 
 ```txt
 ^s - stop scrolling the output and lock keyboard
@@ -31,7 +31,7 @@ whatis is same as the man -f command
 ^j - alternative to the enter (carriage return)
 ^m - alternative to the enter
 
-sitty sane - restotres the terminal
+sitty sane - restores the terminal
 ```
 
 ## General purpose utilities
@@ -205,4 +205,61 @@ unzip -v [archive name] - viewing detaill about the compressed file
 ls -l - long listing files 
 The columns are as folows::
 > File Type and Permissions
-> 
+> Links - the number of links associated with that particular file
+> Ownership - owner of the file
+> Group Ownership 
+> File Size in bytes
+> Last Modification Date
+> Filename
+```
+
+```txt
+File Ownership
+> The user-id (UID) 
+> The group-id (GID)
+
+id - view UID and GID associated with particular user
+```
+
+```txt
+File Permissions
+
+ 0 1 2 3 4 5 6 7 8 9
+|d|r|w|x|r|w|x|r|w|x|
+
+r - read permission
+w - write permission
+x - execute permission
+
+0 - defines the type of file d for directory, - for normal file
+1,2,3 - permission granted to owner of file
+4,5,6 - permission granted to group owner of file
+7,8,9 - permission granted to other users
+
+chmod - used to change the permissions of the file
+
+chmod [category][operation][permission] [filename...]
+
+category - u-user, g-group, o-other, a-all(ugo)
+operation - + assign permission, - remove permission, = absolute permission
+permission - r, w, x
+
+chmod [ocatal-code] [filename...] - used to assign absolute permission
+
+        a        b        c
+|0|  |4 2 1|  |4 2 1|  |4 2 1|
+|d|  |r|w|x|  |r|w|x|  |r|w|x|
+
+octal-code - a three digit code for permission of the file
+```
+
+```txt
+How directory permission affect the file permissions:
+> if the directory has write permission for all than they can delete the files in the directory
+```
+
+```txt
+Changing file ownership
+
+chown [options] [owner] [files...] - change owner of file to owner
+Chgrp [group] [files...] - change group of file to group
