@@ -262,4 +262,31 @@ How directory permission affect the file permissions:
 Changing file ownership
 
 chown [options] [owner] [files...] - change owner of file to owner
-Chgrp [group] [files...] - change group of file to group
+chgrp [group] [files...] - change group of file to group
+```
+
+## Shell
+
+```txt
+Shell interpretive cycle:
+> shell issue prompt and wait for you to enter command
+> after a command is entered, the shell scans for the metacharacters and expands abbreviations 
+> the shell waits for the command to execute
+
+Types of shell:
+> The Bourne family comprising the Bourne shell (/bin/sh) and its derivatives - the Korn shell (/bin/ksh) and Bash (/bin/bash).
+> the C shell (/bin/csh) and its derivative, Tcsh (/bin/tcsh)
+```
+
+```txt
+Wildcard Meaning
+*		Any Number of characters including none
+?		A single character
+[ijk]	A single character- either i, j, or k
+[x-z]	A single character within the ASCII range of character x and z
+[!ijk]	A single character that is not i, j, k
+[!x-z]	A single character not in the ASCII range of character x and z
+{pat1, pat2, ...}	pat1, pat2, ...
+```
+
+*
