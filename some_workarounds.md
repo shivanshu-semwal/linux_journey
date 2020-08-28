@@ -11,4 +11,3 @@ ln -s /etc/init.d/redirect-brightness /etc/rc2.d/S02redirect-brightness
 sudo ln -s /etc/init.d/redirect-brightness /etc/rc2.d/S02redirect-brightness
 sudo cp redirect-brightness /usr/local/bin/
 ```
-
