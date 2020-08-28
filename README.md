@@ -7,7 +7,7 @@
 *   [VIM](./vim.md)
 *   [Conda Environment Management](./conda.md)
 *   [Terminal Tricks](./play_with_terminal.md)
-*   [Customizations](./some_customizations)
+*   [Customizations](./some_customizations.md)
 
 ## How it all started
 
