@@ -289,4 +289,28 @@ Wildcard Meaning
 {pat1, pat2, ...}	pat1, pat2, ...
 ```
 
-*
+```txt
+Redirection
+* 0-Standard Input - The file (or stream) representing input, connected to the keyboard.
+* 1-Standard Output - The file (or stream) representing output, connected to the display.
+* 2-Standard Error - The file(or stream) representing error, connected to display.
+
+Three standard file are represented by a number called file descriptor. 1,2,3.
+
+< - file redirection i.e. taking contents of one file as input
+| - pipe i.e. giving output of one command to another
+
+taking input from both file and standard input::
+cat ~ foo       #first from standard input and then from foo
+cat foo ~ bar   #first from foo, the stdin then bar
+
+> - redirecting output to a file
+>> - appending output to a file
+
+File descriptors are implictily prefixed to the redirection symbols.
+e.g. > is same as 1>, < is same as <0.
+
+2> - redirecting error stream
+2>> - appending error stream
+```
+

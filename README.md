@@ -1,6 +1,13 @@
 # Linux Journey
 
-> check other files for more.
+## Index
+
+*   [Commands](./commands.md)
+*   [Package Management](./package_management.md)
+*   [VIM](./vim.md)
+*   [Conda Environment Management](./conda.md)
+*   [Terminal Tricks](./play_with_terminal.md)
+*   [Customizations](./some_customizations)
 
 ## How it all started
 
