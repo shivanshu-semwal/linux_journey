@@ -2,21 +2,21 @@
 
 ## man - linux manual 
 
-```txt
+``` txt
 man [command] - get help on the command
 man [section-number] [command] - get help on the command in the section given by section-number
 man -k [keyword] - find the commands which deals with the keyword
 man -f [command] - one line help on the command
 ```
 
-```txt
+``` txt
 apropos is same as the man -k command - used to find commands associated with a particular keyword
 whatis is same as the man -f command - used to ge one line help on a command
 ```
 
 ## Control character in the linux terminal
 
-```txt
+``` txt
 ^s - stop scrolling the output and lock keyboard
 ^q - start scrolling and unlock keyboard
 
@@ -36,12 +36,11 @@ sitty sane - restores the terminal
 
 ## General purpose utilities
 
-```txt
+``` txt
 cal [ [month] year] -  print the calender of the giver year and month
 date - displays current date
 date +[symbol] - display the current date particular part given by the symbol
     [d - day] [y - year] [H,M,S - hour, minute, second] [D - date] [T - time]
-
 
 bc - basic calculator
 passwd - change current password
@@ -82,14 +81,14 @@ stty intr \^c - sets the interrrupt control character
 
 ## echo - printing
 
-```txt
+``` txt
 echo [text to print]
 echo 'text to print as it is'
 echo -e "interpret escape characters"
 echo "$var" - prints the variable var
 ```
 
-```txt
+``` txt
 \a - bell
 \b - backspace
 \c - no newline
@@ -106,13 +105,13 @@ echo "$var" - prints the variable var
 
 Everything is file in linux.
 
-```txt
+``` txt
 ordinary file - binary/text file
 directory file - contains filename and there inode number
 device file
 ```
 
-```txt
+``` txt
 pwd - print workling directory
 
 cd - change directory
@@ -138,16 +137,14 @@ options:
 
 ## handling text files
 
-```txt
+``` txt
 cat [filename] - displays the contents of the file 
 cat -v [filename] - displays the non-graphical characters also
 cat -n [filename] - displays the line number also
 
-
 cp [file] [destination] - copy file to the destination
 cp -i - interactive copy(provides warning while overwriring)
 cp -R - recursive copy 
-
 
 mv - renames a files 
 
@@ -156,7 +153,7 @@ rm - remove a file
 
 ## archiving and compressing
 
-```txt
+``` txt
 
 gzip to compress tar to archive and zip to archive and compress
 
@@ -185,7 +182,6 @@ gzip [archive name] - creates a tar-gzipped file
 tar -xvf [archive name] - extracts the archive
 tar -tvf [archive name] - view the archive
 
-
 Doing archiving and compression together (-z)
 
 tar -cvzf [compressed archive] - create a compressed archive
@@ -200,7 +196,7 @@ unzip -v [archive name] - viewing detaill about the compressed file
 
 ## Basic File Attributes
 
-```txt
+``` txt
 
 ls -l - long listing files 
 The columns are as folows::
@@ -213,7 +209,7 @@ The columns are as folows::
 > Filename
 ```
 
-```txt
+``` txt
 File Ownership
 > The user-id (UID) 
 > The group-id (GID)
@@ -221,7 +217,7 @@ File Ownership
 id - view UID and GID associated with particular user
 ```
 
-```txt
+``` txt
 File Permissions
 
  0 1 2 3 4 5 6 7 8 9
@@ -253,12 +249,12 @@ chmod [ocatal-code] [filename...] - used to assign absolute permission
 octal-code - a three digit code for permission of the file
 ```
 
-```txt
+``` txt
 How directory permission affect the file permissions:
 > if the directory has write permission for all than they can delete the files in the directory
 ```
 
-```txt
+``` txt
 Changing file ownership
 
 chown [options] [owner] [files...] - change owner of file to owner
@@ -267,7 +263,7 @@ chgrp [group] [files...] - change group of file to group
 
 ## Shell
 
-```txt
+``` txt
 Shell interpretive cycle:
 > shell issue prompt and wait for you to enter command
 > after a command is entered, the shell scans for the metacharacters and expands abbreviations 
@@ -278,7 +274,7 @@ Types of shell:
 > the C shell (/bin/csh) and its derivative, Tcsh (/bin/tcsh)
 ```
 
-```txt
+``` txt
 Wildcard Meaning
 *		Any Number of characters including none
 ?		A single character
@@ -289,8 +285,9 @@ Wildcard Meaning
 {pat1, pat2, ...}	pat1, pat2, ...
 ```
 
-```txt
+``` txt
 Redirection
+
 * 0-Standard Input - The file (or stream) representing input, connected to the keyboard.
 * 1-Standard Output - The file (or stream) representing output, connected to the display.
 * 2-Standard Error - The file(or stream) representing error, connected to display.
@@ -313,4 +310,3 @@ e.g. > is same as 1>, < is same as <0.
 2> - redirecting error stream
 2>> - appending error stream
 ```
-
