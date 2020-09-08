@@ -8,3 +8,6 @@
 * [Echo command](./commands/4-echo.md)  
 * [Filesystem](./commands/5-Filesystem_in-Linux.md)
 * [Shell](./commands/6-shell.md)
+* [Processes](./commands/7-processes.md)
+* [Links](./commands/8-links.md)
+* [find-command](./commands/9-find-command.md)
