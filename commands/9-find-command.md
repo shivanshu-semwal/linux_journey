@@ -15,7 +15,7 @@ The `path-list` comprised of one or more directories seperated by whitespace.
 
 ```bash
 find / -name a.out -print #find a file named a.out in / directory and the print its name
-find . -naem "*.c" -print #find all c file in current directory and then print its name
+find . -name "*.c" -print #find all c file in current directory and then print its name
 ```
 
 ## Selection Criteria
@@ -42,7 +42,7 @@ find . -naem "*.c" -print #find all c file in current directory and then print i
 
 * `-print`          - print the name of the file
 * `-ls`             - executes ls -lids on the following files
-* `-exce cmd {} \`  - executes linux command cmd
+* `-exec cmd {} \`  - executes linux command cmd
 
 ## Operators
 
