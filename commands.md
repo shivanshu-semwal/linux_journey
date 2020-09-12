@@ -11,3 +11,5 @@
 * [Processes](./commands/7-processes.md)
 * [Links](./commands/8-links.md)
 * [find-command](./commands/9-find-command.md)
+* [prompt-statement](./commands/10-prompt-statement.md)
+* [colours in terminal](./commands/11-colors.md)
