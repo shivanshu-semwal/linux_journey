@@ -2,12 +2,12 @@
 
 ## Index
 
-*   [Commands](./commands.md)
-*   [Package Management](./package_management.md)
-*   [VIM](./vim.md)
-*   [Conda Environment Management](./conda.md)
-*   [Terminal Tricks](./play_with_terminal.md)
-*   [Customizations](./some_customizations.md)
+*   [Commands](./commands.md)[Status](https://progress-bar.dev/40)
+*   [Package Management](./package_management.md)[Status](https://progress-bar.dev/100)
+*   [VIM](./vim.md)[Status](https://progress-bar.dev/0)
+*   [Conda Environment Management](./conda.md)[Status](https://progress-bar.dev/100)
+*   [Terminal Tricks](./play_with_terminal.md)[Status](https://progress-bar.dev/50)
+*   [Customizations](./some_customizations.md)[Status](https://progress-bar.dev/30)
 
 ## How it all started
 
