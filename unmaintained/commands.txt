@@ -1,0 +1,1 @@
+How to log out:: gnome-session-quit OR gnome-session-save --force-logout

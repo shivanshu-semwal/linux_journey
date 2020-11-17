@@ -1,0 +1,18 @@
+Snap Packages
+--help:: Packages for Ubuntu. Advantage-don't break system underneath
+--install-snap:: sudo apt install snapd
+--find-packages:: snap find <search_text>
+--install-package:: sudo snap install  <package>
+--see-packages:: snap list
+--snap-history:: snap changes
+--upgrade-packages:: sudo snap refresh <package>
+--upgrade-list:: sudo snap refresh --list
+--downgrade:: sudo snap revert <package>
+--remove-package:: sudo snap remove <package>
+--changing-package-channel:: sudo snap refresh <package> --channel=<channel_name>
+--available-channels::
+	stable   :: The latest stable release of an application
+        candidate:: The release candidate (RC) of an application that is reaching the stable version 
+        beta     :: Unstable version that has reached a certain milestone
+        edge     :: Daily/nightly build of an application under development
+--download-package:: snap download <package_name>
