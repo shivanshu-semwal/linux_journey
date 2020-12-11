@@ -2,14 +2,14 @@
 
 ## Distros/ Distributions
 
-- `Arch` (Rolling-release)
-- `Manjaro`(Rolling-release)
-- `Ubuntu`
-- `Linux Mint`
-- `MX Linux`
-- `Fedora`
-- `Debian`
-- `RedHat`
+- Debian `debian-package-management`
+- Red Hat Enterprise Linux `rpm`
+- Ubuntu `deb`
+- Fedora `rpm`
+- Linux Mint `deb`
+- Gentoo `portage` (for advanced users)
+- Arch Linux `pacman` (for advanced users)
+- openSUSE `rpm`
 
 ## Bootloader
 
