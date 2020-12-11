@@ -23,3 +23,6 @@ OR
 
 The `fbrokendesktop` Bash script detects broken Exec values pointing to non-existent paths. Without any arguments it uses preset directories in the DskPath array. It shows only broken .desktop with full path and filename that is missing.
 
+## Force some theme on a particular application
+
+- Add following line to its `Exce` part in .desktop file - `env GTK_THEME=Adwaita:light` or use the theme of your choice.
