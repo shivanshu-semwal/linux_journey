@@ -20,3 +20,8 @@ Having all of the keys in a single compact binary format also avoids the intense
 ## Using gsettings
 
 Gsettings is High-level API for application settings.
+
+## Tricks
+
+- How to force themes. E.g. opening libre office in gtk themes - `GTK_THEME=Adwaita:light libreoffice --writer`
+- Where to find themes and icons ? - on (gnome-looks](https://www.gnome-look.org)
