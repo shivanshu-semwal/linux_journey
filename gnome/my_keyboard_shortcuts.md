@@ -21,5 +21,5 @@ dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-2 "['<Shift><Sup
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-3 "['<Shift><Super>numbersign']"
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-4 "['<Shift><Super>dollar']"
 dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-5 "['<Shift><Super>percent']"
-dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-6 "['<Shift><Super>underscore']"
+dconf write /org/gnome/desktop/wm/keybindings/move-to-workspace-6 "['<Shift><Super>parenright']"
 ```
