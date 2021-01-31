@@ -11,6 +11,10 @@
 * [awesome linux dev tools](https://github.com/madbob/awesome-linux-dev)
 * [awesome ubuntu linux](https://github.com/bpearson/Awesome-Ubuntu-Linux)
 * [arch wiki](https://wiki.archlinux.org/)
+* [linux books](https://github.com/manjunath5496/Linux-Books)
+* [basic linux commands you should know](https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know)
+* [more linux books](https://github.com/manjunath5496/What-is-Linux-and-why-is-it-so-popular)
+*
 
 ## Terminal related resources
 
@@ -34,3 +38,4 @@ Must read the one you use, and it will make your life easier.
   * [Discord list](./discord.md) - or use this list
 * On Reddit - [Reddit list](./reddit.md) - list of linux sub-reddit on reddit
 * On [stackexchange](https://unix.stackexchange.com/) or on [askubuntu](https://askubuntu.com/)
+*
