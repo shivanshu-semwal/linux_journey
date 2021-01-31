@@ -14,7 +14,6 @@
 * [linux books](https://github.com/manjunath5496/Linux-Books)
 * [basic linux commands you should know](https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know)
 * [more linux books](https://github.com/manjunath5496/What-is-Linux-and-why-is-it-so-popular)
-*
 
 ## Terminal related resources
 
