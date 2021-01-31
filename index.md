@@ -37,4 +37,3 @@ Must read the one you use, and it will make your life easier.
   * [Discord list](./discord.md) - or use this list
 * On Reddit - [Reddit list](./reddit.md) - list of linux sub-reddit on reddit
 * On [stackexchange](https://unix.stackexchange.com/) or on [askubuntu](https://askubuntu.com/)
-*
