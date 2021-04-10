@@ -21,4 +21,5 @@ There are many components of KDE.
 * To toggle the top panel - [https://github.com/Intika-KDE-Plasmoids/plasmoid-toggle-panel](https://github.com/Intika-KDE-Plasmoids/plasmoid-toggle-panel)
 * Event calender, for making time and date on same line - [https://store.kde.org/p/998901/](https://store.kde.org/p/998901/)
 
+## Applications Used in KDE
 

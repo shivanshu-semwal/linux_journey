@@ -1,5 +1,9 @@
 # zsh
 
+## Resources
+
+* [Many of important zsh repositories](https://github.com/zsh-users)
+
 ## Problems you may face
 
 Bad Colors from tab completion - [link](https://unix.stackexchange.com/questions/446402/remove-colors-from-zsh-tab-completion) 
