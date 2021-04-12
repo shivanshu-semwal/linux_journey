@@ -13,14 +13,14 @@
 
 ## Bootloader
 
-- grub
+- `grub`
 
 ## Desktop Environments
 
-- Gnome
-- KDE
-- XFCE
-- LXDE
+- `Gnome`
+- `KDE`
+- `XFCE`
+- `LXDE`
 
 ## Display Manager
 
